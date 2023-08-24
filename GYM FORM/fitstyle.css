@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(img/pexels-karolina-grabowska-4397833.jpg);
+    background-size: cover;
+    background-position: initial;
+    background-repeat: repeat-x;
+    color:black;   
+     font-family: sans-serif;
+}
+
+.mid{
+    display:block;
+    width:36%;
+    margin:12px auto;
+    
+ 
+}
+.right{
+    display:block;
+   position: absolute;
+   right:34px;
+   top:20px;
+   
+}
+
+.left{
+    display:inline-block;
+    position: absolute;
+    left:34px;
+    top:20px;
+   
+}
+ .nav li{
+display: inline-block;
+font-size: 25px;
+ }
+ 
+ .nav li a{
+    padding:34px 20px;
+    text-decoration: none;
+    color:rgb(114, 114, 179);
+ }
+ .nav li a:hover{
+    color:rgb(219, 211, 211);
+    text-decoration: underline;
+ }
+
+.left img{
+    filter:invert(100%);
+    width:120px;
+}
+.left div{
+    color:rgb(114, 114, 179);
+    text-align: center;
+}
+.btn{
+    color: rgb(114, 114, 179);
+    cursor: pointer;
+    padding: 3px;
+
+}
+.btn:hover{
+    color:rgb(219, 211, 211);
+}
+
+.cont{
+    padding: 34px 20px;
+    width: 34%;
+    margin: 93px 35px;
+    border-radius: 20px;
+}
+.form input{
+    width: 175px;
+    padding: 10px;
+    border: 0px solid black;
+    margin: 11px auto;
+}
+
+.cont h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    color:rgb(234, 110, 151);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
