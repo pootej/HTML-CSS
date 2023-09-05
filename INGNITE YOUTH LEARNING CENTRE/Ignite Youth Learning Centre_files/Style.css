@@ -1,0 +1,127 @@
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+h1 {
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff; /* White header background */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Paragraph */
+p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin: 0 20px;
+}
+
+/* Table */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px; /* Increase padding for better readability */
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Form */
+form {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    border-radius: 5px; /* Rounded corners */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px; /* Increase spacing between labels */
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 50%;
+    padding: 10px; /* Slightly smaller padding */
+    margin-bottom: 15px; /* Increase spacing between inputs */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 24px; /* Increase button padding */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease; /* Smooth hover effect */
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #555;
+}
+
+/* Section Header */
+h4 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px; /* Add padding for better visual separation */
+    background-color: #f2f2f2;
+    border-radius: 4px;
+}
+
+/* Emphasis */
+em {
+    font-style: italic;
+    color: #777; /* A subtle gray for emphasis */
+}
+/* Content Container */
+.content {
+    display: flex;
+    align-items: center; /* Vertically center contents */
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px; /* Add margin for spacing */
+}
+
+/* Background Image */
+.content img {
+    flex: 1;
+    height: auto;
+    object-fit: cover;
+    max-width: 100%;
+    min-height: 100%; /* Ensure the image fills the container vertically */
+}
+
+/* Form */
+.content form {
+    flex: 2;
+    padding: 20px;
+}
